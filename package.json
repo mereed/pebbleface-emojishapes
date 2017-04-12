@@ -1,0 +1,196 @@
+{
+    "author": "chops",
+    "dependencies": {
+        "pebble-clay": "^1.0.2"
+    },
+    "keywords": [],
+    "name": "shapes",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "shapes",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "seccol",
+            "mincol",
+            "background",
+            "date",
+            "hrcol",
+            "batt",
+            "secs",
+            "bgcol",
+            "dcol",
+            "dtext",
+            "topmarker"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/shapes-blank.png",
+                    "name": "IMAGE_BLANK",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/square.png",
+                    "name": "IMAGE_SQUARE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/shapes0.png",
+                    "name": "IMAGE_0",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/p-trans.png",
+                    "name": "IMAGE_P",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/pebblelogo.png",
+                    "name": "IMAGE_PEBBLE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/shapesmenu.png",
+                    "menuIcon": true,
+                    "name": "MENU_IMAGE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/IMAGE_BATT_8.png",
+                    "name": "IMAGE_BATT_8",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/IMAGE_BATT_7.png",
+                    "name": "IMAGE_BATT_7",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/IMAGE_BATT_6.png",
+                    "name": "IMAGE_BATT_6",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/IMAGE_BATT_5.png",
+                    "name": "IMAGE_BATT_5",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/IMAGE_BATT_4.png",
+                    "name": "IMAGE_BATT_4",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/IMAGE_BATT_3.png",
+                    "name": "IMAGE_BATT_3",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/IMAGE_BATT_2.png",
+                    "name": "IMAGE_BATT_2",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/IMAGE_BATT_1.png",
+                    "name": "IMAGE_BATT_1",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/battery_charge.png",
+                    "name": "IMAGE_BATT_CHARGING",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/bg-8 mins n hours",
+                    "name": "IMAGE_BACKGROUND8",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-0 hour nums",
+                    "name": "IMAGE_BACKGROUND",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-1 min numbers",
+                    "name": "IMAGE_BACKGROUND1",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/bg-3 both dots",
+                    "name": "IMAGE_BACKGROUND3",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-4 min dots",
+                    "name": "IMAGE_BACKGROUND4",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-6 circles",
+                    "name": "IMAGE_BACKGROUND6",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-2 not used blank",
+                    "name": "IMAGE_BACKGROUND2",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-7 lines n nums",
+                    "name": "IMAGE_BACKGROUND7",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-5 lines",
+                    "name": "IMAGE_BACKGROUND5",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/icon_bluetooth_ANALOG.png",
+                    "name": "IMAGE_BLUETOOTH",
+                    "targetPlatforms": null,
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "9d8aab2a-8387-4170-8464-764d83628b36",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
